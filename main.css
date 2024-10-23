@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+#nav {
+    list-style: none;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+#nav li {
+    display: inline;
+    border: 1px solid salmon;
+    background: gray;
+    cursor: crosshair;
+    padding: 20px;
+}
+
+#nav li:hover {
+    background: rebeccapurple;
+    border-radius: 25px;
+}
+
+p {
+    color:darkviolet;
+    text-align: center;
+    font-size: 25;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Jacquarda Bastarda 9", serif;
+    word-spacing: 10;
+    cursor: copy;
+}
+
+#block {
+    background-image: url('https://www.icegif.com/wp-content/uploads/2024/05/among-us-icegif-4.gif');
+    /* background-color: aquamarine; */
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    border: 15px solid plum;
+    border-radius: 25px 50px;
+    margin: 50px;
+    padding: 5px;
+    color: purple;
+    font-style: italic;
+}
+
+.blocky {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: tan;
+}
+
+#first {
+    float: left;
+}
+
+#second {
+    float: left;
+    background: rebeccapurple;
+}
+
+#header, #footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 15px solid orange;
+    background: indianred;
+    color: burlywood;
+    line-height: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#main {
+    width: 50%;
+    margin-left: 5%;
+    border: 0px solid slateblue;
+    background: skyblue;
+    padding: 25px 3%;
+    float: left;
+}
+
+#aside {
+    width: 25%;
+    padding: 15px 2.5%;
+    border: 0px solid slateblue;
+    background: skyblue;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    top: -10px;
+}
+
+#footer {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border-bottom: 0px;
+    border-top: 15px solid orange;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background: teal;
+    position: absolute;
+    line-height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
